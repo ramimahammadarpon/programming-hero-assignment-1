@@ -517,6 +517,10 @@ th .span-1 {
     font-weight: 600;
     transition: .3s ease-in; 
 }
+.section-6 .text-container .int-btn .btn-box:hover {
+    padding: 18px 35px;
+    background-color: rgba(9, 161, 92, .7);
+}
 .section-6 .text-container .subtitle {
     text-align: center;
     color: rgba(14, 14, 14, 0.7);
