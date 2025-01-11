@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: 'fira sans';
@@ -291,6 +292,46 @@ section {
     font-weight: bold;
     margin-bottom: 24px;
     color: #0E0E0E;
+}
+.section-3 .table-container {
+    width: 1280px;
+    height: 409px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.section-3 table thead {
+    background-color: #C6E4D6;
+    text-align: left;
+}
+.section-3 table .head-data1 {
+    padding: 24px;
+    border-right: none;
+    font-size: 20px;
+}
+.section-3 table .data {
+    padding:36.5px 370px 36.5px 24px;
+    color: #0E0E0E;
+    font-weight: 600;
+}
+.section-3 table .selection {
+    padding: 24px;
+}
+table, td,th {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+}
+th .span-1 {
+    padding-right: 910px;
+}
+.section-3 table select {
+    font-weight: bold;
+    background-color: rgba(198, 228, 214, 1);
+    border: 3px solid #0E0E0E;
+    height: 44px;
+    width: 152px;
+    border-radius: 8px;
+    padding: 12.5px 16.5px;
+    
 }
 /* .section-3 {
     background: url(../assets/quote-bg.png);
