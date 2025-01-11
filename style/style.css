@@ -39,6 +39,12 @@ section {
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
+    transition: .3s ease-in;
+}
+.header .nav-bar .sign-in:hover {
+    color: rgba(9, 161, 92, .7);
+    padding: 16px 32px;
+    font-size: 19px;
 }
 .header .banner {
     height: 560px;
@@ -76,7 +82,13 @@ section {
     background-color: #006A50;
     border-radius: 8px;
     font-size: 18px;
-    font-weight: 600; 
+    font-weight: 600;
+    transition: .3s ease-in; 
+}
+.header .banner .banner-text .explore-bd:hover {
+    background-color: rgba(9, 161, 92, .7);
+    padding: 17px 35px;
+    font-size: 19px;
 }
 .header .banner .banner-img {
     height: 400px;
@@ -129,4 +141,106 @@ section {
 .section-1 .cards .card .card-description {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
+    line-height: 24px;
+}
+.section-2 {
+    width: 1280px;
+    height: 765px;
+}
+.section-2 .title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #0E0E0E;
+}
+.section-2 .description {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.section-2 .cards {
+    height: 325px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-2 .cards .card {
+    width: 411px;
+    height: 325px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 .cards .card-1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.section-2 .cards .card-2 {
+    background-color: rgba(198, 228, 214, 1);
+}
+.section-2 .cards .card-3 {
+    background-color: rgba(247, 235, 207, 1);
+}
+.section-2 .cards .card-1 .card-btn {
+    background-color: #5490F5;
+    color: #ffffff;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: .3s ease-in;
+}
+.section-2 .cards .card-1 .card-btn:hover {
+    background-color: rgba(84, 144, 245, .7);
+    padding: 12px 22px;
+}
+.section-2 .cards .card-2 .card-btn {
+    background-color: #09A15C;
+    color: #ffffff;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: .3s ease-in;
+}
+.section-2 .cards .card-2 .card-btn:hover {
+    background-color: rgba(9, 161, 92, .7);
+    padding: 12px 22px;
+}
+.section-2 .cards .card-3 .card-btn {
+    background-color: #FFC239;
+    color: #ffffff;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: .3s ease-in;
+}
+.section-2 .cards .card-3 .card-btn:hover {
+    background-color: rgba(255, 194, 57, .7);
+    padding: 12px 22px;
+}
+.section-2 .cards .card .card-content {
+    width: 346px;
+    height: 260px;
+}
+.section-2 .cards .card .card-img {
+    background: url(../assets/card-icon.png);
+    height: 64px;
+    width: 64px;
+    margin-bottom: 24px;
+}
+.section-2 .cards .card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.section-2 .cards .card .card-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
 }
