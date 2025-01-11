@@ -395,3 +395,72 @@ th .span-1 {
     transition: .3s ease-in;
     margin-top: 32px;
 }
+.section-5 {
+    width: 1280px;
+    height: 464px;
+}
+.section-5 .title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #0E0E0E;
+    text-align: center;
+}
+.section-5 .description {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.section-5 .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.section-5 .cards .card {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 40px;
+    background-color: #ffffff;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.section-5 .cards .card-diff {
+    background-color: #C6E4D6;
+}
+.section-5 .input-div {
+    text-align: center;
+}
+.section-5 .input-div input {
+    height: 64px;
+    width: 1032px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    font-size: 20px;
+    text-align: center;
+}
+.section-5 .btn-div .btn-box {
+    padding: 17px 34px;
+    border: none;
+    color: #ffffff;
+    background-color: #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 32px;
+    transition: .3s ease-in; 
+}
+.section-5 .btn-div {
+    text-align: center;
+}
+.section-6 {
+    width: 1280px;
+    height: 395px;
+}
+.section-6 .text-container {
+    width: 750px;
+    height: 235px;
+}
