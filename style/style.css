@@ -506,6 +506,7 @@ th .span-1 {
     height: 55px;
     width: 600px;
     border: none;
+    padding-left: 40px;
 }
 .section-6 .text-container .int-btn .btn-box {
     padding: 17px 34px;
