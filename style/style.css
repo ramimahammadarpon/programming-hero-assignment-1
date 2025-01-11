@@ -6,6 +6,7 @@
 }
 body {
     font-family: 'fira sans';
+    background-color: #F1F1F3;
 }
 main {
     margin: 0px 160px 0px 160px;
@@ -17,7 +18,7 @@ button {
     margin-bottom: 80px;
 }
 section {
-    margin: 0 160px 80px 160px;
+    margin-bottom: 80px;
 }
 .header .nav-bar {
     width: 1280px;
@@ -82,4 +83,50 @@ section {
     width: 474px;
     background: url(../assets/hero.png);
     background-repeat: no-repeat;
+}
+.section-1 {
+    height: 384px;
+    width: 1280px;
+}
+.section-1 .title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color: #0E0E0E;
+}
+.section-1 .cards {
+    height: 244px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-1 .cards .card {
+    width: 302px;
+    height: 244px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.section-1 .cards .card-content {
+    width: 254px;
+    height: 184px;
+}
+.section-1 .cards .card .card-img {
+    background: url(../assets/card-icon.png);
+    height: 64px;
+    width: 64px;
+}
+.section-1 .cards .card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.section-1 .cards .card .card-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
 }
