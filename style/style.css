@@ -327,7 +327,7 @@ th .span-1 {
 .section-3 table select {
     font-weight: bold;
     background-color: rgba(198, 228, 214, 1);
-    border: 3px solid #0E0E0E;
+    border: 2px solid #0E0E0E;
     height: 44px;
     width: 152px;
     border-radius: 8px;
@@ -549,6 +549,10 @@ footer .icons .icon-container {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+}
+footer .icons .icon-container .icon:hover {
+    opacity: .7;
+    padding: 1px;
 }
 footer .title {
     font-size: 40px;
