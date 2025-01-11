@@ -13,6 +13,12 @@ main {
 button {
     cursor: pointer;
 }
+.header {
+    margin-bottom: 80px;
+}
+section {
+    margin: 0 160px 80px 160px;
+}
 .header .nav-bar {
     width: 1280px;
     height: 100px;
@@ -32,4 +38,48 @@ button {
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
+}
+.header .banner {
+    height: 560px;
+    width: 1280px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.header .banner .banner-text {
+    width: 615px;
+    height: 326px;
+}
+
+.header .banner .banner-text .subtitle {
+    font-weight: 500;
+    font-size: 24px;
+    color: #0E0E0E;
+    opacity: .5;
+    margin-bottom: 16px;
+}
+.header .banner .banner-text .title {
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.header .banner .banner-text .explore-bd {
+    padding: 16px 34px;
+    border: none;
+    color: #ffffff;
+    background-color: #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600; 
+}
+.header .banner .banner-img {
+    height: 400px;
+    width: 474px;
+    background: url(../assets/hero.png);
+    background-repeat: no-repeat;
 }
